@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.boxBox{
+    min-width: 45vw;
+    min-height: auto;
+    max-width: 45vw;
+    max-height: auto;
+    flex-direction: column;
+    flex: 1;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    min-height: 4vh;
+    max-height: 4vh;
+
+}
+
+.col{
+    border: 1px solid black;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+
+}
